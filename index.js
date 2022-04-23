@@ -43,3 +43,6 @@ console.log(nome);
 let numero = [];
 numero.splice(0,0,1,2,3,4);
 console.log(numero);
+
+numero.splice(3,1); // removendo 1 elemento do indice 3
+console.log(numero);
