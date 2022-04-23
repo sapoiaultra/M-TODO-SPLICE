@@ -39,3 +39,7 @@ console.log(nome);
 // Adicionar valores sem remover
 nome.splice(2,0, "Joaquim", "Francisco"); // no indice 2 não quero remover nenhum                                                 valor mas quero adicionar 2 valores
 console.log(nome);
+
+let numero = [];
+numero.splice(0,0,1,2,3,4);
+console.log(numero);
